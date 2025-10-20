@@ -45,6 +45,10 @@ A machine learning-based web application that predicts diabetes risk using compr
 ```bash
 git clone https://github.com/xlr8-git/diabetes-health-indicators.git
 cd diabetes-health-indicators
+python -m venv venv
+# Activate virtual environment
+source venv/bin/activate   # Linux/Mac
+venv\Scripts\activate      # Windows
 ```
 
 2. Install required dependencies:
